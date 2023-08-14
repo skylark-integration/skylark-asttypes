@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "stripInternal": true,
+    "lib": [
+      "es2015"
+    ],
+    "types": [
+      "mocha"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "types/*.d.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "src/test/data"
+  ]
+}
