@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["./types"],function(n){"use strict";return function(r){var t=r.use(n),e=t.Type,u=t.builtInTypes,i=u.number;var f=e.or(u.string,u.number,u.boolean,u.null,u.undefined);return{geq:function(n){return e.from(r=>i.check(r)&&r>=n,i+" >= "+n)},defaults:{null:function(){return null},emptyArray:function(){return[]},false:function(){return!1},true:function(){return!0},undefined:function(){},"use strict":function(){return"use strict"}},isPrimitive:e.from(n=>{if(null===n)return!0;var r=typeof n;return"object"!==r&&"function"!==r},f.toString())}}});
+define(["./types"],function(t){"use strict";return function(n){var n=n.use(t),e=n.Type,n=n.builtInTypes,u=n.number;n=e.or(n.string,n.number,n.boolean,n.null,n.undefined);return{geq:function(t){return e.from(n=>u.check(n)&&t<=n,u+" >= "+t)},defaults:{null:function(){return null},emptyArray:function(){return[]},false:function(){return!1},true:function(){return!0},undefined:function(){},"use strict":function(){return"use strict"}},isPrimitive:e.from(n=>{return null===n||"object"!=(n=typeof n)&&"function"!=n},n.toString())}}});
 //# sourceMappingURL=sourcemaps/shared.js.map

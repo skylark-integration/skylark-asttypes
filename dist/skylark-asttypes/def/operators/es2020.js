@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["./es2016"],function(e){"use strict";return function(n){const r=n.use(e);return r.LogicalOperators.indexOf("??")<0&&r.LogicalOperators.push("??"),r}});
+define(["./es2016"],function(r){"use strict";return function(e){e=e.use(r);return e.LogicalOperators.indexOf("??")<0&&e.LogicalOperators.push("??"),e}});
 //# sourceMappingURL=../../sourcemaps/def/operators/es2020.js.map

@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["./core"],function(n){"use strict";return function(r){const e=r.use(n);return e.BinaryOperators.indexOf("**")<0&&e.BinaryOperators.push("**"),e.AssignmentOperators.indexOf("**=")<0&&e.AssignmentOperators.push("**="),e}});
+define(["./core"],function(e){"use strict";return function(r){r=r.use(e);return r.BinaryOperators.indexOf("**")<0&&r.BinaryOperators.push("**"),r.AssignmentOperators.indexOf("**=")<0&&r.AssignmentOperators.push("**="),r}});
 //# sourceMappingURL=../../sourcemaps/def/operators/es2016.js.map

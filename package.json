@@ -2,7 +2,6 @@
   "name": "skylark-asttypes",
   "version": "0.9.0",
   "description": "A version of asttypes that ported to running on skylarkjs.",
-  "main": "-",
   "scripts": {
     "build": "slib build .",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,6 +25,11 @@
   "dependencies": {
     "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git#master"
   },
+  "exports": {
+    ".": "./dist/uncompressed/skylark-asttypes/main.js",
+    "./*": "./dist/uncompressed/skylark-asttypes/*.js"
+  },
+
   "files": [
     "demo/",
     "dist/",

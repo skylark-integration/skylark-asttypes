@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["./es2016","../types","../shared"],function(e,s,n){"use strict";return function(i){i.use(e);const t=i.use(s).Type.def,u=i.use(n).defaults;t("Function").field("async",Boolean,u.false),t("AwaitExpression").bases("Expression").build("argument").field("argument",t("Expression"))}});
+define(["./es2016","../types","../shared"],function(n,i,u){"use strict";return function(e){e.use(n);var s=e.use(i).Type.def,e=e.use(u).defaults;s("Function").field("async",Boolean,e.false),s("AwaitExpression").bases("Expression").build("argument").field("argument",s("Expression"))}});
 //# sourceMappingURL=../sourcemaps/def/es2017.js.map

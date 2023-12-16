@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["./es2021","../types"],function(e,t){"use strict";return function(n){n.use(e);const s=n.use(t).Type.def;s("StaticBlock").bases("Declaration").build("body").field("body",[s("Statement")])}});
+define(["./es2021","../types"],function(t,i){"use strict";return function(e){e.use(t);e=e.use(i).Type.def;e("StaticBlock").bases("Declaration").build("body").field("body",[e("Statement")])}});
 //# sourceMappingURL=../sourcemaps/def/es2022.js.map

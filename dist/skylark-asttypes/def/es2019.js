@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["./es2018","../types","../shared"],function(e,s,t){"use strict";return function(u){u.use(e);const n=u.use(s),a=n.Type.def,l=n.Type.or,r=u.use(t).defaults;a("CatchClause").field("param",l(a("Pattern"),null),r.null)}});
+define(["./es2018","../types","../shared"],function(t,n,a){"use strict";return function(e){e.use(t);var u=e.use(n),s=u.Type.def,u=u.Type.or,e=e.use(a).defaults;s("CatchClause").field("param",u(s("Pattern"),null),e.null)}});
 //# sourceMappingURL=../sourcemaps/def/es2019.js.map

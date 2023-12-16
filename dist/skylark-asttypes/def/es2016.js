@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["./operators/es2016","./es6"],function(e,s){"use strict";return function(n){n.use(e),n.use(s)}});
+define(["./operators/es2016","./es6"],function(s,n){"use strict";return function(e){e.use(s),e.use(n)}});
 //# sourceMappingURL=../sourcemaps/def/es2016.js.map

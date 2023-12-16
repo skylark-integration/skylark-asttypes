@@ -5,10 +5,8 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-(function(factory,globals) {
-  var define = globals.define,
-      require = globals.require,
-      isAmd = (typeof define === 'function' && define.amd),
+(function(factory,globals,define,require) {
+  var isAmd = (typeof define === 'function' && define.amd),
       isCmd = (!isAmd && typeof exports !== 'undefined');
 
   if (!isAmd && !define) {
@@ -2979,5 +2977,5 @@ define('skylark-asttypes/main',[
 define('skylark-asttypes', ['skylark-asttypes/main'], function (main) { return main; });
 
 
-},this);
+},this,define,require);
 //# sourceMappingURL=sourcemaps/skylark-asttypes.js.map

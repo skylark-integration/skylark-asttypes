@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["../types","./babel-core","./flow"],function(e,n,s){"use strict";return function(i){const r=i.use(e).Type.def;i.use(n),i.use(s),r("V8IntrinsicIdentifier").bases("Expression").build("name").field("name",String),r("TopicReference").bases("Expression").build()}});
+define(["../types","./babel-core","./flow"],function(n,s,r){"use strict";return function(e){var i=e.use(n).Type.def;e.use(s),e.use(r),i("V8IntrinsicIdentifier").bases("Expression").build("name").field("name",String),i("TopicReference").bases("Expression").build()}});
 //# sourceMappingURL=../sourcemaps/def/babel.js.map
